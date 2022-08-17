@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pet-store-react/static/css/main.49894639.css",
-    "main.js": "/pet-store-react/static/js/main.ad6fb8a1.js",
-    "static/media/bg1.jpg": "/pet-store-react/static/media/bg1.9523ea8e051ffc790d8a.jpg",
-    "static/media/bg2.jpg": "/pet-store-react/static/media/bg2.f27ac6005409e8f3642f.jpg",
-    "static/media/bg3.jpg": "/pet-store-react/static/media/bg3.13edfc34e75a47e49453.jpg",
-    "static/media/runningDogNoBG.png": "/pet-store-react/static/media/runningDogNoBG.4169b285ec3a798027d6.png",
-    "index.html": "/pet-store-react/index.html",
-    "main.49894639.css.map": "/pet-store-react/static/css/main.49894639.css.map",
-    "main.ad6fb8a1.js.map": "/pet-store-react/static/js/main.ad6fb8a1.js.map"
+    "main.css": "/pet-store-project/static/css/main.49894639.css",
+    "main.js": "/pet-store-project/static/js/main.61256f31.js",
+    "static/media/bg1.jpg": "/pet-store-project/static/media/bg1.9523ea8e051ffc790d8a.jpg",
+    "static/media/bg2.jpg": "/pet-store-project/static/media/bg2.f27ac6005409e8f3642f.jpg",
+    "static/media/bg3.jpg": "/pet-store-project/static/media/bg3.13edfc34e75a47e49453.jpg",
+    "static/media/runningDogNoBG.png": "/pet-store-project/static/media/runningDogNoBG.4169b285ec3a798027d6.png",
+    "index.html": "/pet-store-project/index.html",
+    "main.49894639.css.map": "/pet-store-project/static/css/main.49894639.css.map",
+    "main.61256f31.js.map": "/pet-store-project/static/js/main.61256f31.js.map"
   },
   "entrypoints": [
     "static/css/main.49894639.css",
-    "static/js/main.ad6fb8a1.js"
+    "static/js/main.61256f31.js"
   ]
 }
