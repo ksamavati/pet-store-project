@@ -1,6 +1,6 @@
 # The Pet Stop
 
-A fictional pet store website built as an exercise in [Kable Academy's](https://kableacademy.com/) Full Stack Web Development program.
+A fictional pet store website built as an exercise in [Kable Academy](https://kableacademy.com/)'s Full Stack Web Development program.
 
 ## About the Project
 
