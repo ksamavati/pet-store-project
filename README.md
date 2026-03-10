@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# The Pet Stop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fictional pet store website built as an exercise in [Kable Academy's](https://kableacademy.com/) Full Stack Web Development program.
 
-## Available Scripts
+## About the Project
 
-In the project directory, you can run:
+The Pet Stop is a multi-page single-page application (SPA) for a fictional pet store. The exercise focused on building a real-world-style React application from scratch, covering:
 
-### `npm start`
+- **Client-side routing** — navigating between pages (Home, Shop, About, Contact) using React Router v6 without full page reloads
+- **Reusable React components** — breaking the UI into modular pieces (`Navbar`, `Home`, `Shop`, `About`, `Contact`) following component-based architecture
+- **Responsive design** — using Bootstrap to create a layout that works across mobile, tablet, and desktop screen sizes
+- **Static asset management** — importing and rendering images and data files within a React app
+- **Deployment** — publishing the finished app to GitHub Pages using `gh-pages`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> **Disclaimer:** The Pet Stop is a fictional pet store. This website was created for educational purposes only and does not provide any real goods or services. No animals were harmed in the making of this website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+The app is deployed at: [https://ksamavati.github.io/pet-store-project/](https://ksamavati.github.io/pet-store-project/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+| Technology | Purpose |
+|---|---|
+| [React 18](https://reactjs.org/) | UI library |
+| [React Router v6](https://reactrouter.com/) | Client-side routing |
+| [Bootstrap](https://getbootstrap.com/) | Responsive styling |
+| [Create React App](https://create-react-app.dev/) | Project scaffolding & build tooling |
+| [gh-pages](https://github.com/tschaub/gh-pages) | GitHub Pages deployment |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js and npm installed
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Opens the app at [http://localhost:3000](http://localhost:3000). The page reloads automatically when you make changes.
 
-## Learn More
+### Running Tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Building for Production
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Bundles the app for production into the `build` folder.
 
-### Analyzing the Bundle Size
+### Deploying to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run deploy
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Builds the app and publishes it to the `gh-pages` branch.
